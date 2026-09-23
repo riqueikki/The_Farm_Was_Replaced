@@ -1,22 +1,23 @@
+
+Por isso, o GitHub está entendendo **todo o restante do conteúdo como código Python**, inclusive os comentários e os próximos títulos.
+
+### A estrutura correta deve ser assim
+
+```markdown
 # While True — Criando um LOOP
 
-O comando `while True` é usado para fazer o programa repetir uma ação
-continuamente.
+O `while True` é utilizado para repetir continuamente um determinado
+bloco de código.
 
-No jogo **The Farmer Was Replaced**, ele é muito importante porque permite
-que o Drone continue trabalhando sem precisar repetir o mesmo código várias
-vezes.
+No **The Farmer Was Replaced**, podemos utilizar o `while True` para
+fazer o Drone continuar executando tarefas automaticamente.
 
----
+## Como funciona?
 
-## 1. O que significa `while`?
+A palavra `while` significa **"enquanto"**.
 
-A palavra `while` significa:
+Quando escrevemos:
 
-> "enquanto"
-
-Em programação, podemos pensar assim:
-
-```text
-ENQUANTO uma condição for verdadeira:
-    faça alguma coisa
+```python
+while True:
+    move(North)
