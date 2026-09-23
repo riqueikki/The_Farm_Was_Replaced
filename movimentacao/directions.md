@@ -1,8 +1,3 @@
-
----
-
-### `03-movimentacao/directions.md`
-
 ```markdown
 # Directions — Direções do Drone
 
@@ -22,3 +17,13 @@ West ← Drone → East
           |
           ↓
         South
+
+
+# Cria um LOOP infinito
+while True:
+
+    # Move para o Norte
+    move(North)
+
+    # Move para o Leste
+    move(East)
