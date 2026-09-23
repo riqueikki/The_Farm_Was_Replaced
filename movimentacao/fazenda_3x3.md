@@ -30,6 +30,14 @@ while True:
         # Continua subindo
         move(North)
 
+
+while True     → cria o LOOP
+can_harvest()  → verifica a colheita
+harvest()      → realiza a colheita
+get_pos_y()    → verifica a posição vertical
+move(North)    → movimenta para o Norte
+move(East)     → movimenta para o Leste
+if / else      → toma decisões
 Uma fazenda 3x3 possui:
 
 ```text
