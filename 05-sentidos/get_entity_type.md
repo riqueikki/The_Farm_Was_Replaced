@@ -20,3 +20,18 @@ if get_entity_type() == Entities.Grass:
 
     # Colhe a grama
     harvest()
+
+# Cria um LOOP infinito
+while True:
+
+    # Verifica se existe uma planta pronta
+    if can_harvest():
+
+        # Realiza a colheita
+        harvest()
+
+    # Verifica se o espaço está vazio
+    if get_entity_type() == None:
+
+        # Planta um Bush
+        plant(Entities.Bush)
