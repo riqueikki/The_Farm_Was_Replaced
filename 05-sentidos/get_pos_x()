@@ -13,3 +13,18 @@ Podemos armazenar o resultado em uma variável:
 ```python
 # Guarda a posição X do Drone
 x = get_pos_x()
+
+# Descobre a posição X
+x = get_pos_x()
+
+# Verifica se o Drone está na posição 0
+if x == 0:
+
+    # Move o Drone para o Leste
+    move(East)
+
+# Verifica se o Drone está na coluna 0
+if get_pos_x() == 0:
+
+    # Planta um Bush
+    plant(Entities.Bush)
