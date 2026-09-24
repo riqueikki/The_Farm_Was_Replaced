@@ -12,3 +12,8 @@ while True:
 
     # Move o Drone para o Norte
     move(North)
+
+Entities.Bush → identifica o Bush
+plant()        → realiza o plantio
+move()         → movimenta o Drone
+harvest()      → realiza a colheita
