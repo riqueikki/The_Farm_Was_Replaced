@@ -1,0 +1,15 @@
+# Get Pos X() — Descobrindo a posição X
+
+O comando `get_pos_x()` permite descobrir a posição horizontal atual do
+Drone dentro da fazenda.
+
+A posição `X` começa em `0` no lado Oeste e aumenta conforme o Drone se
+movimenta para o Leste. :contentReference[oaicite:1]{index=1}
+
+## Como funciona?
+
+Podemos armazenar o resultado em uma variável:
+
+```python
+# Guarda a posição X do Drone
+x = get_pos_x()
